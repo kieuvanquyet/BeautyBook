@@ -11,13 +11,13 @@ First, clone the repository from GitHub:
 
 ```bash
 (use HTTPS)
-git clone https://github.com/IMTALabs/booking.git
+git clone https://github.com/kieuvanquyet/BeautyBook.git
 or
 (use SSH ! You should set up an SSH key)
-git clone git@github.com:IMTALabs/booking.git
+git clone git@github.com:kieuvanquyet/BeautyBook.git
 ```
 ```bash
-cd BookingOnline
+cd BeautyBook
 ```
 
 ## Step 2: Install Composer Packages
@@ -76,12 +76,8 @@ Start the Laravel development server:
 php artisan serve
 ```
 
-The application will run at http://localhost:8000.
 
-## Step 9: Useful Commands
-- Run tests: `php artisan test`
-- Clear cache: `php artisan cache:clear`
-- Optimize: `php artisan optimize`
+
 ## Notes
 - Ensure you have correctly configured the settings in the .env file, especially the database configuration.
 - Regularly check and update the Composer and npm/yarn packages to ensure you are using the latest versions.
